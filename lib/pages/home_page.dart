@@ -23,11 +23,16 @@ class IndexState extends State<HomePage> {
   }
 
   @override
+  void initState() {
+    _channelController.text = 'testingchannel';
+    super.initState();
+  }
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        title: Text('Flutter Video Call Demo'),
+        title: Text('Telemedicine Demo'),
         centerTitle: true,
       ),
       body: Center(

@@ -278,7 +278,7 @@ class _VideoCallState extends State<VideoCall> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Video Call Demo'),
+        title: Text('Telemedicine Demo'),
         centerTitle: true,
       ),
       backgroundColor: Colors.black,
